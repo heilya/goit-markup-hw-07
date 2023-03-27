@@ -20,6 +20,7 @@
     padding-bottom: 96px;
   }
 }
+
 .navigation-container {
   display: flex;
   align-items: center;
@@ -119,6 +120,7 @@
   letter-spacing: 0.02em;
   color: var(--brand-color);
 }
+
 .mobile-menu-mail {
   display: block;
   font-family: var(--primary-font);
@@ -128,4 +130,40 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+}
+/* Hero section */
+@media screen and (max-width: 767px) {
+  .hero {
+    background-color: var(--primary-text-color);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-mobile.jpg);
+    background-size: cover;
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+  @media (min-resolution: 2dppx) {
+    .hero {
+      background-color: var(--primary-text-color);
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg-mobile@2.jpg);
+      padding-top: 112px;
+      padding-bottom: 112px;
+    }
+  }
+  .hero-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    color: var(--primari-page-color);
+    margin-bottom: 72px;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
