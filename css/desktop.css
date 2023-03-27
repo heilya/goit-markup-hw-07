@@ -67,3 +67,31 @@
     margin-right: auto;
   }
 }
+/* Our benefits */
+@media screen and (min-width: 1200px) {
+  .benefits-list {
+    display: flex;
+    align-items: center;
+  }
+  .benefits-list-item {
+    width: 264px;
+  }
+  .benefits-list-item:not(:last-child) {
+    margin-right: 24px;
+  }
+  .benefits-thumb {
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    background-color: var(--secondary-page-color);
+  }
+  .benefits-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+}
