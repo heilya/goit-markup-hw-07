@@ -1,3 +1,5 @@
+/* Header */
+
 @media screen and (min-width: 480px) {
   .container {
     width: 426px;
@@ -29,6 +31,7 @@
   padding: 0;
   line-height: 0;
 }
+
 .mobile-menu {
   position: fixed;
   width: 100%;

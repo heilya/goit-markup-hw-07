@@ -1,9 +1,32 @@
-@media screen and (min-width: 1200x) {
+/* Header */
+
+@media screen and (min-width: 1200px) {
   .container {
     width: 1158px;
   }
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+  .list-contact {
+    display: flex;
+    align-items: center;
+  }
+  .menu-link:hover,
+  .menu-link:focus {
+    color: var(--active-color);
+  }
+  .contact {
+    margin-left: auto;
+  }
+  .contact-item:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  .mail:hover,
+  .mail:focus,
+  .phone:hover,
+  .phone:focus {
+    color: var(--active-color);
   }
 }
