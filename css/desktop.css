@@ -43,14 +43,15 @@
     padding-top: 188px;
     padding-bottom: 188px;
   }
-  @media (min-resolution: 2dppx) {
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 2dppx),
+    screen and (min-resolution: 192dpi) {
     .hero {
-      background-color: var(--primary-text-color);
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/bg-desktop@2.jpg);
+        url(../images/bg-desktop@2x.jpg);
       background-size: cover;
       padding-top: 188px;
       padding-bottom: 188px;
@@ -93,5 +94,30 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+  }
+}
+/* What are we doing */
+@media screen and (min-width: 1200px) {
+  .examples-title {
+    width: 323px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .examples-title,
+  .page-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+  }
+  .examples-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .examples-list-item {
+    flex-basis: 360px;
   }
 }

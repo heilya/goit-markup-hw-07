@@ -136,7 +136,6 @@
 /* Hero section */
 @media screen and (max-width: 767px) {
   .hero {
-    background-color: var(--primary-text-color);
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -146,14 +145,16 @@
     padding-top: 112px;
     padding-bottom: 112px;
   }
-  @media (min-resolution: 2dppx) {
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 2dppx),
+    screen and (min-resolution: 192dpi) {
     .hero {
       background-color: var(--primary-text-color);
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/bg-mobile@2.jpg);
+        url(../images/bg-mobile@2x.jpg);
       padding-top: 112px;
       padding-bottom: 112px;
     }
@@ -195,5 +196,11 @@
   }
   .benefits-subtitle {
     text-align: center;
+  }
+}
+/* What are we doing */
+@media screen and (max-width: 1199px) {
+  .examples-section {
+    display: none;
   }
 }

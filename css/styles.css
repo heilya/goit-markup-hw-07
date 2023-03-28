@@ -87,6 +87,9 @@ body {
 .hero-container {
   text-align: center;
 }
+.hero {
+  background-color: var(--primary-text-color);
+}
 .hero-btn {
   font-family: inherit;
   font-size: 16px;
@@ -128,28 +131,6 @@ body {
 }
 
 /* What are we doing */
-.examples-title {
-  width: 323px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.examples-title,
-.page-team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-transform: capitalize;
-  margin-bottom: 72px;
-}
-.examples-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-}
-.examples-list-item {
-  flex-basis: 360px;
-}
 
 /* Our Team */
 .page-team-title {

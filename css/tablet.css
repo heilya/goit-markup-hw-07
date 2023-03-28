@@ -68,14 +68,15 @@
     padding-top: 112px;
     padding-bottom: 108px;
   }
-  @media (min-resolution: 2dppx) {
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 2dppx),
+    screen and (min-resolution: 192dpi) {
     .hero {
-      background-color: var(--primary-text-color);
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/bg-tablet@2.jpg);
+        url(../images/bg-tablet@2x.jpg);
       background-size: cover;
       padding-top: 112px;
       padding-bottom: 108px;
@@ -114,3 +115,4 @@
     margin-bottom: 0;
   }
 }
+/* What are we doing */
