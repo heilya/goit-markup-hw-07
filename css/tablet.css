@@ -137,3 +137,21 @@
     margin-bottom: 0;
   }
 }
+/* Customers */
+@media screen and (min-width: 768px) {
+  .customers-list-link {
+    width: 168px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .customers-list-item {
+    margin-right: 24px;
+    margin-bottom: 72px;
+  }
+  .customers-list-item:nth-child(3n) {
+    margin-right: 0;
+  }
+  .customers-list-item:nth-child(n + 4) {
+    margin-bottom: 0;
+  }
+}
