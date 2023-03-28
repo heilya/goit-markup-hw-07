@@ -116,3 +116,24 @@
   }
 }
 /* What are we doing */
+
+/* Our Team */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .page-team-list {
+    justify-content: center;
+  }
+
+  .page-team-list-item {
+    width: calc(50% - 24px);
+    margin-bottom: 64px;
+  }
+
+  .page-team-list-item:nth-child(odd) {
+    margin-right: 24px;
+  }
+
+  .page-team-list-item:nth-child(3),
+  .page-team-list-item:nth-child(4) {
+    margin-bottom: 0;
+  }
+}

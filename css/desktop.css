@@ -121,3 +121,9 @@
     flex-basis: 360px;
   }
 }
+/* Our Team */
+@media screen and (min-width: 1200px) {
+  .page-team-list {
+    gap: 24px;
+  }
+}

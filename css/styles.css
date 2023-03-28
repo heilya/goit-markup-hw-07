@@ -135,8 +135,10 @@ body {
 /* Our Team */
 .page-team-title {
   width: 162px;
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 72px;
 }
 .page-team {
   background-color: var(--secondary-page-color);
@@ -145,7 +147,6 @@ body {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
 }
 
 .page-team-list-item {

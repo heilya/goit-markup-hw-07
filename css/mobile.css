@@ -204,3 +204,12 @@
     display: none;
   }
 }
+/* Our Team */
+@media screen and (max-width: 767px) {
+  .page-team-list {
+    justify-content: center;
+  }
+  .page-team-list-item:not(:last-child) {
+    margin-bottom: 72px;
+  }
+}
