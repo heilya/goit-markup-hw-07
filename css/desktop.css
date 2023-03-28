@@ -137,3 +137,10 @@
     gap: 24px;
   }
 }
+/* Footer */
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
