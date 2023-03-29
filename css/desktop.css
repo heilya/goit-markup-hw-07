@@ -161,3 +161,13 @@
     margin-right: 80px;
   }
 }
+/* Portfolio */
+@media screen and (min-width: 1200px) {
+  .portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+  .portfolio-list {
+    margin-bottom: 72px;
+  }
+}
