@@ -155,18 +155,6 @@
     flex-wrap: wrap;
     gap: 72px;
     column-gap: 24px;
-  }
-}
-/* Portfolio */
-@media screen and (min-width: 768px) {
-  .portfolio {
-    padding-top: 64px;
-    padding-bottom: 96px;
-  }
-  .portfolio-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 64px;
+    margin-left: 108px;
   }
 }
