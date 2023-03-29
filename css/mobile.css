@@ -263,3 +263,25 @@
 		margin-bottom: 72px;
 	}
 }
+/* Portfolio */
+@media screen and (max-width: 767px) {
+	.portfolio {
+		padding-top: 48px;
+		padding-bottom: 48px;
+	}
+	.portfolio-list {
+		display: flex;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		margin-bottom: 48px;
+	}
+	.portfolio-list-item {
+		margin-bottom: 16px;
+	}
+	.portfolio-examples {
+		justify-content: center;
+	}
+	.portfolio-examples-item:not(:last-child) {
+		margin-bottom: 48px;
+	}
+}

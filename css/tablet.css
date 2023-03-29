@@ -155,3 +155,31 @@
 		margin-bottom: 72px;
 	}
 }
+/* Portfolio */
+@media screen and (min-width: 768px) {
+	.portfolio {
+		padding-top: 64px;
+		padding-bottom: 96px;
+	}
+	.portfolio-examples {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.portfolio-examples {
+		margin-right: -24px;
+	}
+	.portfolio-examples-item {
+		flex-basis: 356px;
+		margin-right: 24px;
+		margin-bottom: 72px;
+	}
+	.portfolio-examples-item:nth-child(2n) {
+		margin-right: 0;
+	}
+	.portfolio-examples-item:last-child {
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+}
