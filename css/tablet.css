@@ -167,9 +167,6 @@
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-	.portfolio-examples {
-		margin-right: -24px;
-	}
 	.portfolio-examples-item {
 		flex-basis: 356px;
 		margin-right: 24px;
