@@ -281,6 +281,9 @@
 	.portfolio-examples {
 		justify-content: center;
 	}
+	.portfolio-examples-item {
+		flex-basis: 396px;
+	}
 	.portfolio-examples-item:not(:last-child) {
 		margin-bottom: 48px;
 	}
